@@ -1,0 +1,19 @@
+.head{
+    text-Shadow: 2px 2px 4px rgba(255, 5, 5, 0.899)
+}
+.hoverclass:hover{
+    color: rgb(255, 111, 0)
+
+}
+.transparentNav {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important; /* remove blur if any */
+  padding: 10px 0;
+  color: rgb(104, 99, 99) !important; /* text visible on dark background */
+  z-index: 10;
+  position: absolute; /* sits above image/video */
+  top: 0;
+  left: 0;
+  width: 100%;
+}

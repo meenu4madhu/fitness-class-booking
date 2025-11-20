@@ -1,0 +1,96 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "name": "Yoga",
+      "types": ["Hatha Yoga", "Vinyasa Yoga", "Power Yoga"],
+      "duration": "45–60 minutes",
+      "levels": ["Beginner", "Intermediate"],
+      "benefits": "Flexibility, Stress Relief",
+      "instructor": "Aarav Menon",
+      "image": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fli2jvtlhojqydfgth7q/Private%20or%20Group%20Yoga%20Class%20(Online%20or%20Offline%20Classes).jpg"
+    },
+    {
+      "id": 2,
+      "name": "Zumba",
+      "types": ["Zumba Fitness", "Zumba Toning"],
+      "duration": "45 minutes",
+      "levels": ["Beginner", "Intermediate", "Advanced"],
+      "benefits": "Weight Loss, Energy Boost",
+      "instructor": "Sofia Mathew",
+      "image": "https://corporateswasthya.com/wp-content/uploads/2023/01/people-taking-part-dance-therapy-class_23-2149346542.webp"
+    },
+    {
+      "id": 3,
+      "name": "Meditation",
+      "types": ["Mindfulness", "Guided Meditation", "Breathwork"],
+      "duration": "30 minutes",
+      "levels": ["Beginner"],
+      "benefits": "Calmness, Mental Clarity",
+      "instructor": "Rahul Nair",
+      "image": "https://t3.ftcdn.net/jpg/01/59/47/24/360_F_159472423_kPS5tQLHJnipimJgdHw250rJ9wioTMs3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pilates",
+      "types": ["Mat Pilates", "Reformer Pilates", "Classic Pilates"],
+      "duration": "40–50 minutes",
+      "levels": ["Beginner", "Intermediate"],
+      "benefits": "Core Strength, Posture Correction",
+      "instructor": "Emma Joseph",
+      "image": "https://sunnyhealthfitness.com/cdn/shop/articles/benefits-of-pilates-exercises-01_750x.jpg?v=1696283190"
+    },
+    {
+      "id": 5,
+      "name": "Strength Training",
+      "types": ["Weightlifting", "Resistance Training", "Full-Body Workout"],
+      "duration": "60 minutes",
+      "levels": ["Intermediate", "Advanced"],
+      "benefits": "Muscle Gain, Strength Improvement",
+      "instructor": "Ethan Thomas",
+      "image": "https://media.istockphoto.com/id/1207041834/photo/group-of-young-happy-fit-people-doing-exercises-in-gym.jpg?s=612x612&w=0&k=20&c=3LkL97NzJct4YwSNc_X70FEX9uH-BkKBMY9Vgy1O5sg="
+    },
+    {
+      "id": 6,
+      "name": "Cardio",
+      "types": ["HIIT", "Low-Impact Cardio", "Aerobic Cardio"],
+      "duration": "30–45 minutes",
+      "levels": ["Beginner", "Intermediate"],
+      "benefits": "Heart Health, Fat Burning",
+      "instructor": "Liya George",
+      "image": "https://thumbs.dreamstime.com/b/cardio-step-dance-group-fitness-gym-training-people-workout-40978580.jpg"
+    },
+    {
+      "id": 7,
+      "name": "CrossFit",
+      "types": ["WOD Training", "Bootcamp", "Interval Training"],
+      "duration": "50 minutes",
+      "levels": ["Intermediate", "Advanced"],
+      "benefits": "Endurance, Strength, Overall Fitness",
+      "instructor": "Jason K Mathew",
+      "image": "https://img.freepik.com/free-photo/group-happy-people-doing-exercise-with-fitness-strap-gym_23-2147949529.jpg?semt=ais_incoming&w=740&q=80"
+    },
+    {
+      "id": 8,
+      "name": "Aerobics",
+      "types": ["Step Aerobics", "Dance Aerobics", "Low Impact"],
+      "duration": "40 minutes",
+      "levels": ["Beginner", "Intermediate"],
+      "benefits": "Coordination, Weight Loss",
+      "instructor": "Riya Samuel",
+      "image": "https://www.shutterstock.com/image-photo/group-women-standing-front-mirror-600nw-2273936447.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Nutrition Coaching",
+      "types": ["Diet Planning", "Weight Management", "Lifestyle Coaching"],
+      "duration": "30 minutes (consultation)",
+      "levels": ["All Levels"],
+      "benefits": "Better Eating Habits, Health Improvement",
+      "instructor": "Dr. Maya Suresh",
+      "image": "https://i1.wp.com/www.personaltrainerfood.com/blog/wp-content/uploads/2024/04/Strategic-Pre-Workout-Nutrition.jpg?ssl=1"
+    }
+  ],
+  "trainers": [],
+  "bookings": []
+}
