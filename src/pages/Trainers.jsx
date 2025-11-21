@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import {getAlltrainers}from "../services/allAPI.js"
+import { yellow } from "@mui/material/colors";
 
 function Trainers() {
-  const trainers = [
-    { name: "John Michael", img: "https://via.placeholder.com/400" },
-    { name: "Angelina Cruz", img: "https://via.placeholder.com/400" },
-    { name: "Michael Ray", img: "https://via.placeholder.com/400" },
-    { name: "Sara Lena", img: "https://via.placeholder.com/400" },
-  ];
+ const [trainer,setTrainer]= useState([])
+ useEffect(()=>{
+  const loadTrainers=async()=>{
+    const result=await getAlltrainers()
+    // console.log(result);
+    setTrainer(result.data)
+    
+  }
+  loadTrainers()
 
+ },[])
   return (
     <div
       style={{
@@ -31,12 +37,12 @@ function Trainers() {
         `}
       </style>
 
-      {trainers.map((trainer, index) => (
+      {trainer.map((trainer, index) => (
         <div className="mt-5"
           key={index}
           style={{
-            width: "250px",
-            height: "250px",
+            width: "300px",
+            height: "550px",
             backgroundColor: "#111",
             borderRadius: "12px",
             overflow: "hidden",
@@ -48,19 +54,21 @@ function Trainers() {
           }}
         >
           <img
-            src={trainer.img}
-            alt={trainer.name}
+            src={trainer?.image}
+            alt={trainer?.name}
             className="trainer-img"
             style={{
               width: "100%",
-              height: "70%",
+              height: "50%",
               objectFit: "cover",
               transition: "0.4s",
             }}
           />
-          <h4 style={{ marginTop: 10 }}>{trainer.name}</h4>
-          <h5>Experience : </h5>
-          <p>Speciality : </p>
+          <h4 className="text-warning" style={{ marginTop: 10}}>{trainer?.name}</h4>
+          <h5>Experience : {trainer?.experience}</h5>
+          <p className="p-3">Specialization : {trainer?.specialization}</p>
+          <p style={{textAlign:'justify'}} className="mx-5 text-warning test-justify">{trainer?.about}</p>
+
         </div>
       ))}
     </div>

@@ -4,12 +4,13 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+
 
 
 
 function Header() {
-
+const {id}=useParams()
   return (
 <Box sx={{ flexGrow: 1 }}>
 <AppBar
@@ -42,7 +43,7 @@ function Header() {
       className="head text-warning text-decoration-none fw-bold fs-2">Reviews</Link>
    </Box>
         <Box sx={{ flexGrow: 1 }} />
-        <Link to="/mybookings" className="head text-warning text-decoration-none fw-bold fs-2">My Bookings</Link>
+        <Link to={`/mybookings/${id}`} className="head text-warning text-decoration-none fw-bold fs-2">My Bookings</Link>
   </Toolbar>
 </AppBar>
 </Box>

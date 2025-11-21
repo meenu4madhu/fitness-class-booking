@@ -19,8 +19,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/classbooking' element={<Bookclass/>}/>
-        <Route path='/mybookings' element={<Mybookings/>}/>
+        <Route path='/classbooking/:id' element={<Bookclass/>}/>
+        <Route path='/mybookings/:id' element={<Mybookings/>}/>
         <Route path='/trainers' element={<Trainers/>}/>
         <Route path='/*' element={<Pnf/>}/>
        
