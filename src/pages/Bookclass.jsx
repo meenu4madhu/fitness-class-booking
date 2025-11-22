@@ -10,6 +10,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { getAllclasses, saveBooking } from "../services/allAPI";
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
+import { green } from "@mui/material/colors";
 
 
 
@@ -268,7 +269,7 @@ useEffect(() => {
       // Save to JSON Server
       try {
     const response = await saveBooking(bookingData);
-    // go to MyBookings page
+    
   } catch (error) {
     console.log(error);
   }

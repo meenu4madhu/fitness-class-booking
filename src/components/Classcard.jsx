@@ -9,8 +9,10 @@ function Classcard() {
   useEffect(() => {
     const loadClasses = async () => {
       const response = await getAllclasses();
+      // console.log(response);
+      
       setData(response.data);
-      console.log(response.data);
+      // console.log(response.data);
       
     };
 

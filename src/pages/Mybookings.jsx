@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { getBookingById, getAllBookings, updateBooking, deleteBooking } from "../services/allAPI";
 import { Modal, Box, TextField, Button } from "@mui/material";
+import MenuItem from "@mui/material/MenuItem";
+
 
 function MyBookings() {
   const [bookings, setBookings] = useState([]);
@@ -39,7 +41,7 @@ function MyBookings() {
 
   return (
     <div className="container mt-5">
-      <h2>My Bookings</h2>
+      <h2 style={{marginTop:'80px'}}>All Bookings</h2>
 
       {bookings.map((item) => (
         <div key={item.id} className="border p-3 my-2">
@@ -59,7 +61,7 @@ function MyBookings() {
   className="btn btn-danger ms-2"
   onClick={() => handleDelete(item.id)}
 >
-  Delete
+  Cancel
 </button>
         </div>
       ))}
@@ -97,7 +99,33 @@ function MyBookings() {
                   })
                 }
               />
+             <TextField
+  select
+  label="Class Name"
+  fullWidth
+  margin="normal"
+  value={selectedBooking.classInfo.className}
+  onChange={(e) =>
+    setSelectedBooking({
+      ...selectedBooking,
+      classInfo: {
+        ...selectedBooking.classInfo,
+        className: e.target.value,
+      },
+    })
+  }
+>
 
+                <MenuItem value="Yoga">Yoga</MenuItem>
+                <MenuItem value="Zumba">Zumba</MenuItem>
+                <MenuItem value="Meditation">Meditation</MenuItem>
+                <MenuItem value="Pilates">Pilates</MenuItem>
+                 <MenuItem value="Strength Training">Strength Training</MenuItem>
+                <MenuItem value="Cardio">Cardio</MenuItem>
+                <MenuItem value="Crossfit">Crossfit</MenuItem>
+                <MenuItem value="Aerobics">Aerobics</MenuItem>
+                 <MenuItem value="Nutrition Coaching">Nutrition Coaching</MenuItem>
+</TextField>
               <TextField
                 label="Date"
                 type="date"

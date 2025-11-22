@@ -218,7 +218,7 @@
         "emergencyPhone": "08281898453"
       },
       "classInfo": {
-        "className": "Strength Training",
+        "className": "Zumba",
         "level": "Advanced"
       },
       "schedule": {
@@ -238,7 +238,7 @@
         "emergencyPhone": "6789067890"
       },
       "classInfo": {
-        "className": "Strength Training",
+        "className": "Meditation",
         "level": "Advanced"
       },
       "schedule": {
@@ -259,7 +259,7 @@
         "emergencyPhone": "5678906789"
       },
       "classInfo": {
-        "className": "Zumba",
+        "className": "Crossfit",
         "level": "Beginner"
       },
       "schedule": {
@@ -284,7 +284,7 @@
       },
       "schedule": {
         "date": "2025-05-12",
-        "time": "01:05"
+        "time": "02:05"
       },
       "createdAt": "2025-11-21T17:59:09.256Z"
     }

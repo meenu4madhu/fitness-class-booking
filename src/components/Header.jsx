@@ -1,9 +1,7 @@
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
+
 import { Link, useParams } from 'react-router-dom';
 
 
@@ -43,7 +41,7 @@ const {id}=useParams()
       className="head text-warning text-decoration-none fw-bold fs-2">Reviews</Link>
    </Box>
         <Box sx={{ flexGrow: 1 }} />
-        <Link to={`/mybookings/${id}`} className="head text-warning text-decoration-none fw-bold fs-2">My Bookings</Link>
+        <Link to={`/mybookings/${id}`} className="head text-warning text-decoration-none fw-bold fs-2">All Bookings</Link>
   </Toolbar>
 </AppBar>
 </Box>

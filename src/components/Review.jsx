@@ -45,13 +45,31 @@ function Review() {
   <div className="row">
      <div className='bg-dark shadow-dark w-25 border rounded p-3 ms-5 mt-5 p-4 col-md-3'>
 <MdOutlineAccountCircle style={{color:'white', fontSize:'50px'}}/>
- <h3 className='fw-bold text-warning'>name</h3>
-    <p className='fw-light text-light'>comment</p>
+ <h3 className=' text-warning'>Gil</h3>
+    <p className='fw-light text-light'>“Amazing fitness center! The trainers are very supportive, the environment is clean, and the workouts are challenging in a good way. I feel more energetic and confident after joining.”</p>
         <div style={{ fontSize: "30px", color: "#f5a623" }}>
-            ★
+            ★ ★ ★
         </div>
         
         
+
+  </div>
+   <div className='bg-dark shadow-dark w-25 border rounded p-3 ms-5 mt-5 p-4 col-md-3'>
+<MdOutlineAccountCircle style={{color:'white', fontSize:'50px'}}/>
+ <h3 className=' text-warning'>Chahar</h3>
+    <p className='fw-light text-light'>“Great place to stay fit! The classes are well-structured, the instructors motivate you throughout, and there is always a positive vibe. Highly recommended!”</p>
+        <div style={{ fontSize: "30px", color: "#f5a623" }}>
+            ★ ★ ★ ★ ★
+        </div>   
+
+  </div>
+   <div className='bg-dark shadow-dark w-25 border rounded p-3 ms-5 mt-5 p-4 col-md-3'>
+<MdOutlineAccountCircle style={{color:'white', fontSize:'50px'}}/>
+ <h3 className=' text-warning'>Smriti</h3>
+    <p className='fw-light text-light'>“I love this fitness class! Each session is fun, effective, and perfect for all fitness levels. The team is friendly and professional. Best decision I made for my health!”</p>
+        <div style={{ fontSize: "30px", color: "#f5a623" }}>
+            ★ ★ ★ ★
+        </div>   
 
   </div>
  
